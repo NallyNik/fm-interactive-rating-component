@@ -19,5 +19,7 @@ module.exports = {
       'very-dark-blue': 'hsl(216, 12%, 8%)'
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss')
+  ],
 }
