@@ -2,7 +2,13 @@
 module.exports = {
   content: [
     "index.html",
-    "./src/**/*.js"],
+    "./src/**/*.js"
+  ],
+  mode: 'jit',
+  purge: [
+    "index.html",
+    "./src/**/*.js"
+  ],
   theme: {
     colors: {
       'orange': 'hsl(25, 97%, 53%)',
